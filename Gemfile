@@ -7,8 +7,10 @@ gem 'rails-api'
 
 gem 'spring', :group => :development
 
+# Using postgres for database as this is supported by heroku
+gem 'pg'
 
-gem 'sqlite3', '1.3.13'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
